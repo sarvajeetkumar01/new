@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#F8F8F8" android:padding="18dp">
+    <TextView android:id="@+id/backButton" android:layout_width="match_parent" android:layout_height="55dp"
+        android:text="Back    Event Participants" android:textSize="21sp" android:textStyle="bold" android:gravity="center_vertical"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Photography Workshop | 42 registrations" android:textSize="16sp"/>
+    <Button android:id="@+id/exportButton" android:layout_width="match_parent" android:layout_height="50dp"
+        android:text="Export CSV" android:backgroundTint="#000000" android:textColor="#FFFFFF" android:layout_marginTop="12dp"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="12dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:layout_width="match_parent" android:layout_height="55dp" android:text="1    Aarav Sharma    22CS101    Registered" android:gravity="center_vertical" android:background="#FFFFFF"/>
+            <TextView android:layout_width="match_parent" android:layout_height="55dp" android:text="2    Priya Verma      22EC014    Registered" android:gravity="center_vertical" android:background="#FFFFFF"/>
+            <TextView android:layout_width="match_parent" android:layout_height="55dp" android:text="3    Kunal Singh       23ME032    Registered" android:gravity="center_vertical" android:background="#FFFFFF"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

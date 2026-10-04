@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#F8F8F8" android:padding="18dp">
+    <TextView android:id="@+id/backButton" android:layout_width="match_parent" android:layout_height="55dp"
+        android:text="Back    Manage Events" android:textSize="22sp" android:textStyle="bold" android:gravity="center_vertical"/>
+    <Button android:id="@+id/addEventButton" android:layout_width="match_parent" android:layout_height="55dp"
+        android:text="+ Add Event" android:backgroundTint="#000000" android:textColor="#FFFFFF"/>
+    <TextView android:layout_width="match_parent" android:layout_height="95dp"
+        android:text="AI &amp; The Future Tech Talk&#10;18 Sep 2025 | 10:00 AM&#10;Edit        Delete"
+        android:padding="15dp" android:background="#FFFFFF" android:layout_marginTop="15dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="95dp"
+        android:text="Photography Workshop&#10;21 Sep 2025 | 2:00 PM&#10;Edit        Delete"
+        android:padding="15dp" android:background="#FFFFFF" android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/participantsButton" android:layout_width="match_parent" android:layout_height="55dp"
+        android:text="View Participants" android:layout_marginTop="15dp"/>
+</LinearLayout>

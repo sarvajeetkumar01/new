@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#F8F8F8" android:padding="18dp">
+    <TextView android:id="@+id/backButton" android:layout_width="match_parent" android:layout_height="55dp"
+        android:text="Back    Mark Attendance" android:textSize="22sp" android:textStyle="bold" android:gravity="center_vertical"/>
+    <EditText android:layout_width="match_parent" android:layout_height="50dp" android:hint="Search participant" android:background="#FFFFFF" android:padding="12dp"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="12dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <CheckBox android:layout_width="match_parent" android:layout_height="55dp" android:text="Aarav Sharma - 22CS101" android:checked="true" android:background="#FFFFFF"/>
+            <CheckBox android:layout_width="match_parent" android:layout_height="55dp" android:text="Priya Verma - 22EC014" android:checked="true" android:background="#FFFFFF"/>
+            <CheckBox android:layout_width="match_parent" android:layout_height="55dp" android:text="Kunal Singh - 23ME032" android:background="#FFFFFF"/>
+            <CheckBox android:layout_width="match_parent" android:layout_height="55dp" android:text="Sneha Iyer - 22CS087" android:checked="true" android:background="#FFFFFF"/>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:id="@+id/saveButton" android:layout_width="match_parent" android:layout_height="55dp"
+        android:text="Save Attendance" android:textColor="#FFFFFF" android:backgroundTint="#000000"/>
+</LinearLayout>

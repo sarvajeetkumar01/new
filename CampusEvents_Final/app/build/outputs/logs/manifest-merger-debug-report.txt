@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:6:5-33:19
+INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:6:5-33:19
+	android:extractNativeLibs
+		INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:8:9-38
+	android:allowBackup
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:10:9-72
+	android:usesCleartextTraffic
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:9:9-44
+activity#com.campusevents.app.AdminDashboardActivity
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:12:9-85
+	android:exported
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:12:58-82
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:12:19-57
+activity#com.campusevents.app.ManageEventsActivity
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:13:9-83
+	android:exported
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:13:56-80
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:13:19-55
+activity#com.campusevents.app.EventParticipantsActivity
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:14:9-88
+	android:exported
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:14:61-85
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:14:19-60
+activity#com.campusevents.app.CreateEventActivity
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:15:9-82
+	android:exported
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:15:55-79
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:15:19-54
+activity#com.campusevents.app.MarkAttendanceActivity
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:16:9-85
+	android:exported
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:16:58-82
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:16:19-57
+activity#com.campusevents.app.ProfileActivity
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:17:9-78
+	android:exported
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:17:51-75
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:17:19-50
+activity#com.campusevents.app.AIChatbotActivity
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:18:9-80
+	android:exported
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:18:53-77
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:18:19-52
+activity#com.campusevents.app.MyEventsActivity
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:19:9-79
+	android:exported
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:19:52-76
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:19:19-51
+activity#com.campusevents.app.EventDetailsActivity
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:20:9-83
+	android:exported
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:20:56-80
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:20:19-55
+activity#com.campusevents.app.StudentHomeActivity
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:21:9-82
+	android:exported
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:21:55-79
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:21:19-54
+activity#com.campusevents.app.LoginActivity
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:22:9-76
+	android:exported
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:22:49-73
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:22:19-48
+activity#com.campusevents.app.MainActivity
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:24:9-31:20
+	android:exported
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:25:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml
+INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml

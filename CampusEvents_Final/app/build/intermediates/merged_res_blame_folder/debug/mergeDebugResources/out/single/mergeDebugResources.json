@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.campusevents.app-debug-3:/layout_activity_my_events.xml.flat",
+        "source": "com.campusevents.app-main-5:/layout/activity_my_events.xml"
+    },
+    {
+        "merged": "com.campusevents.app-debug-3:/layout_activity_profile.xml.flat",
+        "source": "com.campusevents.app-main-5:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.campusevents.app-debug-3:/layout_activity_event_details.xml.flat",
+        "source": "com.campusevents.app-main-5:/layout/activity_event_details.xml"
+    },
+    {
+        "merged": "com.campusevents.app-debug-3:/layout_activity_student_home.xml.flat",
+        "source": "com.campusevents.app-main-5:/layout/activity_student_home.xml"
+    },
+    {
+        "merged": "com.campusevents.app-debug-3:/layout_activity_admin_dashboard.xml.flat",
+        "source": "com.campusevents.app-main-5:/layout/activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "com.campusevents.app-debug-3:/layout_activity_main.xml.flat",
+        "source": "com.campusevents.app-main-5:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.campusevents.app-debug-3:/layout_activity_create_event.xml.flat",
+        "source": "com.campusevents.app-main-5:/layout/activity_create_event.xml"
+    },
+    {
+        "merged": "com.campusevents.app-debug-3:/layout_activity_event_participants.xml.flat",
+        "source": "com.campusevents.app-main-5:/layout/activity_event_participants.xml"
+    },
+    {
+        "merged": "com.campusevents.app-debug-3:/layout_activity_ai_chatbot.xml.flat",
+        "source": "com.campusevents.app-main-5:/layout/activity_ai_chatbot.xml"
+    },
+    {
+        "merged": "com.campusevents.app-debug-3:/layout_activity_mark_attendance.xml.flat",
+        "source": "com.campusevents.app-main-5:/layout/activity_mark_attendance.xml"
+    },
+    {
+        "merged": "com.campusevents.app-debug-3:/layout_activity_login.xml.flat",
+        "source": "com.campusevents.app-main-5:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.campusevents.app-debug-3:/layout_activity_manage_events.xml.flat",
+        "source": "com.campusevents.app-main-5:/layout/activity_manage_events.xml"
+    }
+]

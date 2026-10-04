@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "name": "Test Student",
+        "email": "student@test.com",
+        "password": "scrypt:32768:8:1$vFHydJBELYHt9YMu$d82191717eed92f8bb0aec64408ebf90ec06c80b8112d51ab4990e0e85b3604e521e070eb500002c95622587db31af860d70e210aa450f4a5733e52b952b5c84",
+        "role": "student"
+    }
+]

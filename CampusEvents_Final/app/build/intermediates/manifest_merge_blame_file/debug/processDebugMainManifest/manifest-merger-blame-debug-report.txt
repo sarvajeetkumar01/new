@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.campusevents.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="35" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:6:5-33:19
+14        android:allowBackup="true"
+14-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:7:9-35
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+16-->INJECTED
+17        android:label="Campus Events"
+17-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:8:9-38
+18        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+18-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:10:9-72
+19        android:usesCleartextTraffic="true" >
+19-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:9:9-44
+20        <activity
+20-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:12:9-85
+21            android:name="com.campusevents.app.AdminDashboardActivity"
+21-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:12:19-57
+22            android:exported="false" />
+22-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:12:58-82
+23        <activity
+23-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:13:9-83
+24            android:name="com.campusevents.app.ManageEventsActivity"
+24-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:13:19-55
+25            android:exported="false" />
+25-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:13:56-80
+26        <activity
+26-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:14:9-88
+27            android:name="com.campusevents.app.EventParticipantsActivity"
+27-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:14:19-60
+28            android:exported="false" />
+28-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:14:61-85
+29        <activity
+29-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:15:9-82
+30            android:name="com.campusevents.app.CreateEventActivity"
+30-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:15:19-54
+31            android:exported="false" />
+31-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:15:55-79
+32        <activity
+32-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:16:9-85
+33            android:name="com.campusevents.app.MarkAttendanceActivity"
+33-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:16:19-57
+34            android:exported="false" />
+34-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:16:58-82
+35        <activity
+35-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:17:9-78
+36            android:name="com.campusevents.app.ProfileActivity"
+36-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:17:19-50
+37            android:exported="false" />
+37-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:17:51-75
+38        <activity
+38-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:18:9-80
+39            android:name="com.campusevents.app.AIChatbotActivity"
+39-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:18:19-52
+40            android:exported="false" />
+40-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:18:53-77
+41        <activity
+41-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:19:9-79
+42            android:name="com.campusevents.app.MyEventsActivity"
+42-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:19:19-51
+43            android:exported="false" />
+43-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:19:52-76
+44        <activity
+44-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:20:9-83
+45            android:name="com.campusevents.app.EventDetailsActivity"
+45-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:20:19-55
+46            android:exported="false" />
+46-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:20:56-80
+47        <activity
+47-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:21:9-82
+48            android:name="com.campusevents.app.StudentHomeActivity"
+48-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:21:19-54
+49            android:exported="false" />
+49-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:21:55-79
+50        <activity
+50-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:22:9-76
+51            android:name="com.campusevents.app.LoginActivity"
+51-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:22:19-48
+52            android:exported="false" />
+52-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:22:49-73
+53        <activity
+53-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:24:9-31:20
+54            android:name="com.campusevents.app.MainActivity"
+54-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:25:13-41
+55            android:exported="true" >
+55-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:26:13-36
+56            <intent-filter>
+56-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:27:13-30:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:28:17-69
+57-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:28:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:29:17-77
+59-->D:\new\CampusEvents_Final\app\src\main\AndroidManifest.xml:29:27-74
+60            </intent-filter>
+61        </activity>
+62    </application>
+63
+64</manifest>

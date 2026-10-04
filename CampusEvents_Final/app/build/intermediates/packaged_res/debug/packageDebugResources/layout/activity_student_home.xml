@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#F8F8F8">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="75dp"
+        android:padding="16dp" android:gravity="center_vertical">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Campus Events" android:textSize="22sp" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Explore. Learn. Connect." android:textSize="12sp" android:textColor="#777777"/>
+        </LinearLayout>
+        <TextView android:layout_width="40dp" android:layout_height="40dp"
+            android:text="N" android:gravity="center" android:textSize="18sp"/>
+        <TextView android:layout_width="42dp" android:layout_height="42dp"
+            android:text="SJ" android:textColor="#FFFFFF" android:gravity="center" android:background="#000000"/>
+    </LinearLayout>
+    <EditText android:layout_width="match_parent" android:layout_height="50dp"
+        android:layout_marginHorizontal="16dp" android:hint="Search events..."
+        android:padding="12dp" android:background="#FFFFFF"/>
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="58dp">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+            android:orientation="horizontal" android:padding="7dp">
+            <Button android:id="@+id/allButton" android:layout_width="70dp" android:layout_height="44dp" android:text="All"
+                android:backgroundTint="#000000" android:textColor="#FFFFFF"/>
+            <Button android:id="@+id/workshopsButton" android:layout_width="110dp" android:layout_height="44dp" android:text="Workshops"/>
+            <Button android:id="@+id/seminarsButton" android:layout_width="100dp" android:layout_height="44dp" android:text="Seminars"/>
+            <Button android:id="@+id/culturalButton" android:layout_width="100dp" android:layout_height="44dp" android:text="Cultural"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Upcoming Events" android:textSize="19sp" android:textStyle="bold"
+        android:layout_margin="16dp"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:paddingHorizontal="16dp">
+            <TextView android:id="@+id/eventCard1" android:layout_width="match_parent" android:layout_height="110dp"
+                android:text="AI &amp; The Future Tech Talk&#10;&#10;18 Sep | 10:00 AM | Main Auditorium"
+                android:textSize="15sp" android:padding="16dp" android:background="#FFFFFF"
+                android:clickable="true" android:focusable="true" android:layout_marginBottom="10dp"/>
+            <TextView android:id="@+id/eventCard2" android:layout_width="match_parent" android:layout_height="110dp"
+                android:text="Photography Workshop&#10;&#10;21 Sep | 2:00 PM | Media Lab"
+                android:textSize="15sp" android:padding="16dp" android:background="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <TextView android:id="@+id/eventCard3" android:layout_width="match_parent" android:layout_height="110dp"
+                android:text="Cultural Night 2025&#10;&#10;25 Sep | 6:00 PM | Open Ground"
+                android:textSize="15sp" android:padding="16dp" android:background="#FFFFFF"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="65dp"
+        android:orientation="horizontal" android:background="#FFFFFF">
+        <TextView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+            android:text="Home" android:gravity="center"/>
+        <TextView android:id="@+id/myEventsNav" android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:text="My Events" android:gravity="center" android:clickable="true"/>
+        <TextView android:id="@+id/chatNav" android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:text="Chatbot" android:gravity="center" android:clickable="true"/>
+        <TextView android:id="@+id/profileNav" android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:text="Profile" android:gravity="center" android:clickable="true"/>
+    </LinearLayout>
+</LinearLayout>

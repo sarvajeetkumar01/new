@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#F8F8F8">
+    <TextView android:layout_width="match_parent" android:layout_height="65dp" android:text="Admin Dashboard"
+        android:textSize="26sp" android:textStyle="bold" android:gravity="center_vertical" android:padding="18dp"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
+            <TextView android:layout_width="match_parent" android:layout_height="90dp" android:text="12&#10;Total Events"
+                android:textSize="20sp" android:textStyle="bold" android:padding="18dp" android:background="#FFFFFF"/>
+            <TextView android:layout_width="match_parent" android:layout_height="90dp" android:text="248&#10;Total Registrations"
+                android:textSize="20sp" android:textStyle="bold" android:padding="18dp" android:background="#FFFFFF" android:layout_marginTop="10dp"/>
+            <Button android:id="@+id/manageEventsButton" android:layout_width="match_parent" android:layout_height="55dp" android:text="Manage Events" android:layout_marginTop="20dp"/>
+            <Button android:id="@+id/participantsButton" android:layout_width="match_parent" android:layout_height="55dp" android:text="Event Participants"/>
+            <Button android:id="@+id/createEventButton" android:layout_width="match_parent" android:layout_height="55dp" android:text="Create Event"/>
+            <Button android:id="@+id/attendanceButton" android:layout_width="match_parent" android:layout_height="55dp" android:text="Mark Attendance"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
